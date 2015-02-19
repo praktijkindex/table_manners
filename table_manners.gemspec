@@ -7,14 +7,14 @@ require "table_manners/version"
 Gem::Specification.new do |s|
   s.name        = "table_manners"
   s.version     = TableManners::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of TableManners."
-  s.description = "TODO: Description of TableManners."
+  s.authors     = ["Artem Baguinski"]
+  s.email       = ["abaguinski@depraktijkindex.nl"]
+  s.homepage    = "https://github.com/praktijkindex/table_manners"
+  s.summary     = "Tabular data mangling helpers"
+  s.description = s.summary
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "~> 4.1.9"
 
